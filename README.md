@@ -1,2 +1,2 @@
 # utilcpp
-My utility C and c++ files
+My utility C and C++ files
