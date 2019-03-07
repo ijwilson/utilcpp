@@ -1,7 +1,9 @@
 #include <string>
 #include <sstream>
 #include <stdexcept>
+#ifndef USE_R
 #include <fstream>
+#endif
 #include <iostream>
 #include "newio.H"
 #include "gsl_distributions.H"

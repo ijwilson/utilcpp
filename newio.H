@@ -14,7 +14,9 @@
 #include <iostream>
 #include <iterator>
 #include <string>
+#ifndef USE_R
 #include <fstream>
+#endif
 #include <iomanip>
 #include <sstream>
 #include <bitset>
