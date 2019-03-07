@@ -1,0 +1,11 @@
+#!/bin/bash
+
+wget http://math.nist.gov/tnt/tnt_126.zip
+mkdir tnt
+cd tnt
+unzip ../tnt_126.zip
+rm ../tnt_126.zip
+
+
+# and get gzsteam
+wget http://www.cs.unc.edu/Research/compgeom/gzstream/gzstream.tgz
