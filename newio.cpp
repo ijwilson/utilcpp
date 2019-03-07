@@ -3,6 +3,7 @@
 #include <cstring>
 #include <ctime>
 
+#ifndef USE_R
 bool CanReadFile(const char *filename)
 {
   std::ifstream inf(filename);
@@ -10,7 +11,7 @@ bool CanReadFile(const char *filename)
   if (inf.fail()) return false;
   return true;
 }
-
+#endif
 
 
 std::string nextstring(std::istream &in);
